@@ -36,6 +36,8 @@ group :production do
   gem 'thin', '1.2.4'
   gem 'exception_notification', '1.0.20090728'
   gem 'system_timer'
+
+  gem 'newrelic_rpm'
 end
 
 group :development do
