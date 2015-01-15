@@ -2,8 +2,7 @@
 # See also http://en.wikipedia.org/wiki/Robots_exclusion_standard for extensions
 
 User-agent: *
-# block searches' queries
-Disallow: /search
-Disallow: /assets
-Disallow: /search*query=*
-Disallow: /cat/*
+# test env.
+Disallow: /
+Disallow: *
+
